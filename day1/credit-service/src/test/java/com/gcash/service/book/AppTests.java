@@ -1,10 +1,10 @@
-package com.gcash.service.creditservice;
+package com.gcash.service.book;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CreditServiceApplicationTests {
+class AppTests {
 
 	@Test
 	void contextLoads() {
