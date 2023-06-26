@@ -1,0 +1,8 @@
+1. Java Enterprise Edition
+2. Reusable code template for common tasks or configurations
+3. Spring Framework
+4. Pivotal Software
+5. start.spring.io
+6. Self-contained independent project with embedded web server
+7 - 9. Dependence Injection is like delegating a task to someone else instead of doing it yourself. So instead of creating objects and managing dependencies manually, you use a framework that can provide the required dependencies for you.
+10. mvn spring-boot:run
