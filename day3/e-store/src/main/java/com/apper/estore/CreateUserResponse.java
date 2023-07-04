@@ -1,4 +1,6 @@
 package com.apper.estore;
 
-public class CreateUserResponse {
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public record CreateUserResponse(@JsonProperty("verification_code") String verificationCode) {
 }
