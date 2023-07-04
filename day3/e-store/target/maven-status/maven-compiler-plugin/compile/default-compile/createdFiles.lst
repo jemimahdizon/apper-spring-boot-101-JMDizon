@@ -1,0 +1,6 @@
+com\apper\estore\CreateUserResponse.class
+com\apper\estore\CreateUserRequest.class
+com\apper\estore\App.class
+com\apper\estore\ServiceError.class
+com\apper\estore\ServiceExceptionHandler.class
+com\apper\estore\UserApi.class
