@@ -11,25 +11,25 @@ import jakarta.persistence.Table;
 import lombok.Data;
 
 import java.time.LocalDateTime;
-import java.util.UUID;
 
 @Entity
-@Table(name = "BLOGGER")
+@Table(name = "BLOG")
 @Data
-public class Blogger {
+public class Blog {
+
+    @Column(name = "BLOGGER_ID")
+    private String bloggerId;
+
     @Id
-    @Column(name = "ID")
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private UUID id;
+    @Column(name = "BLOG_ID")
+    @GeneratedValue(strategy = GenerationType.UUID)
+    private String blogId;
 
-    @Column(name = "COMPLETE_NAME")
-    private String name;
+    @Column(name = "TITLE")
+    private String title;
 
-    @Column(name = "EMAIL", unique = true)
-    private String email;
-
-    @Column(name = "PASSWORD")
-    private String password;
+    @Column(name = "BODY")
+    private String body;
 
     @Column(name = "CREATED_AT")
     private LocalDateTime createdAt;
